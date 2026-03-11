@@ -1,0 +1,11 @@
+.App-Header{
+    background-color:teal;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.App-Header li{
+    display: inline;
+    font-size: 20px;
+    padding: 5px;
+}
