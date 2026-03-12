@@ -1,3 +1,4 @@
+import { useState, createContext } from "react";
 import Header from "./components/Header";
 import Content from "./components/Content";
 import Footer from "./components/Footer";
@@ -8,6 +9,7 @@ import Cart from "./components/Cart";
 import Orders from "./components/Orders";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 function App() {
+  
   return (
     <div>
       <BrowserRouter>
